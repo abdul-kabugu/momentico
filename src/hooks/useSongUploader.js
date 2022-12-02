@@ -101,13 +101,13 @@ const  useSongUploader = () => {
             JSON.stringify(metadata)
            
           )
-        console.log("post ipfs hash", ipfsResult._ipfs)
+        console.log("post ipfs hash", ipfsResult.path)
 
           //await Moralis.enableWeb3()
 
         const createPostRequest = {
             profileId: thePrfId,
-            contentURI: ipfsResult._ipfs,
+            contentURI: `https://gateway.pinata.cloud/ipfs/${ipfsResult.path}`,
               collectModule : getPostModules(),
                referenceModule: getPostRefrenceModule()
              }

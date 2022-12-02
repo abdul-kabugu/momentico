@@ -3,6 +3,9 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}',
   './components/**/*.{html,js,jsx}',
 ],
+plugins: [
+  require('tailwindcss-hero-patterns'),
+],
   theme: {
     extend: {
       colors: {

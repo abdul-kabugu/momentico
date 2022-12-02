@@ -25,7 +25,7 @@ export default function FirstStep({
   const handlUploadCover  = async (postFile) => {
     //const result = await saveCoverFile("postMedia", postFile, { saveIPFS: true });
     const result = await saveCoverFile(postFile)
-    setselectedAlbumCoverUri( result.path)
+    setselectedAlbumCoverUri(`https://gateway.pinata.cloud/ipfs/${result.path}`)
     console.log(result.path)
     setisCoverUploaded(true)
   }
@@ -37,10 +37,10 @@ export default function FirstStep({
 
   const handleUploadAudio  = async (postFile) => {
     //const result = await saveAudioFile("postMedia", postFile, { saveIPFS: true });
-    const result = await saveCoverFile(postFile)
+    const result = await saveAudioFile(postFile)
     setselectedAudioUri( result.path)
     console.log("the audio file uri result", result.path)
-     const  audioFileIpfs = result.path
+     const  audioFileIpfs = `https://gateway.pinata.cloud/ipfs/${result.path}`            //result.path
       createAlbumMusicArray(audioFileIpfs)
     setisAudioUploaded(true)
   }

@@ -40,7 +40,7 @@ const App = () => {
            const handleToggleAnnouncement = () => {
             isShowAnnouncement ? setisShowAnnouncement(false) : setisShowAnnouncement(true)
            }
-       
+          // bg-gradient-to-br from-black  to-[#121286]
   return (
     <>
      <main>
@@ -55,7 +55,7 @@ const App = () => {
      </main>
     <div className="relative flex">
       <Sidebar firstUserId = {FIRST_USER_ID} defaultProfile = {DEFAULT_USER_ID}  />
-      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[#121286] h-min ">
+      <div className="flex-1 flex flex-col  mchongo h-min ">
         <Searchbar   />
         <ToastContainer />
         {isShowAnnouncement && <Announcement handleToggleAnnouncement = {handleToggleAnnouncement} />}
