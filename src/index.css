@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Active Navigation Link */
+.active {
+  @apply text-cyan-500;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.active svg {
+  @apply text-cyan-500;
 }
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.bar:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.artist_bg {
+  background: #CE5937;
+  background: -moz-radial-gradient(center, #CE5937 0%, #4345A4 100%, #C5632B 100%);
+  background: -webkit-radial-gradient(center, #CE5937 0%, #4345A4 100%, #C5632B 100%);
+  background: radial-gradient(ellipse at center, #CE5937 0%, #4345A4 100%, #C5632B 100%);
+ 
+}
+
+ .album_bg{
+  background: rgb(47,21,17);
+background: radial-gradient(circle, rgba(47,21,17,1) 10%, rgba(90,34,21,1) 25%, rgba(22,21,79,1) 100%);
+ }
