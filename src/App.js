@@ -45,11 +45,11 @@ const App = () => {
     <>
      <main>
       <Helmet>
-      <title>Audax | Web3 Music Platform</title>
-<meta name="description" content="Audax is Decentralized music streaming  platform where you can  discover and invest to your favorite creators" />
+      <title>Momentico | Web3 Music Platform</title>
+<meta name="description" content="Momentico is Decentralized music streaming  platform where you can  discover and invest to your favorite creators" />
 {/*<!-- Google / Search Engine Tags -->*/}
-<meta itemprop="name" content="Audax | Web3 Music Platform" />
-<meta itemprop="description" content="Audax is Decentralized music streaming  platform where you can  discover and invest to your favorite creators" />
+<meta itemprop="name" content="Momentico | Web3 Music Platform" />
+<meta itemprop="description" content="Momentico is Decentralized music streaming  platform where you can  discover and invest to your favorite creators" />
 <meta itemprop="image" content="https://i.ibb.co/XtY7JDt/logo-2.png" />
       </Helmet>
      </main>
@@ -58,7 +58,7 @@ const App = () => {
       <div className="flex-1 flex flex-col  mchongo h-min ">
         <Searchbar   />
         <ToastContainer />
-        {isShowAnnouncement && <Announcement handleToggleAnnouncement = {handleToggleAnnouncement} />}
+        {/*isShowAnnouncement && <Announcement handleToggleAnnouncement = {handleToggleAnnouncement} /> */}
         <div className="px-6 h-[calc(100vh-1px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse">
           <div className="flex-1 h-fit pb-40">
             

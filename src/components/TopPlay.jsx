@@ -71,7 +71,7 @@ const handlePauseClick = () => {
   >
     <div className="w-full flex flex-col">
       <div className="flex flex-row items-center justify-between">
-        <h2 className="text-white font-bold text-2xl capitalize">latest songs</h2>
+        <h2 className="text-white font-bold text-2xl capitalize">Trending</h2>
           <Link  className="capitalize text-gray-300 cursor-pointer">see more</Link>
       </div>
        <div className="mt-4 flex flex-col gap-1">
