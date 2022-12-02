@@ -14,8 +14,10 @@ export default function UserPlayLists() {
        
   return (
     <div className='flex flex-wrap justify-start md:justify-center gap-4 md:gap-8'>
-      
-     <h3>hello  world</h3>
+    <div className='w-full h-screen flex items-center justify-center flex-col gap-3'>
+    <img  src='/img/coming-son.svg' className='w-[200px]' />
+     <p className='text-gray-300 font-semibold text-lg capitalize'>our team is at hard work to ring this feature</p>
+</div>
  </div>
   )
 }
