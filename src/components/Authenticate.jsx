@@ -43,7 +43,7 @@ export default function Authenticate({ firstUserId , defaultProfile }) {
         isLensConnectModal? setisLensConnectModal(false) : setisLensConnectModal(true)
       }
     const ConnectWallet = () => (
-        <div onClick={toggleIsConnectWalletModal}>
+        <div onClick={connect}>
            <button className='bg-white w-[180px] py-2 capitalize rounded-lg'>connect wallet</button>
         </div>
     )
