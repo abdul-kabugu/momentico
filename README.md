@@ -1,5 +1,7 @@
 Here  is the  link to  wrking  demo [https://momentico2.vercel.app/).
-Here  is the  link to  video demo  [Pax-Fi](https://youtu.be/V6dRjdHlzC8).
+
+Here  is the  link to  video demo  [YOUTUBE DEMO](https://youtu.be/V6dRjdHlzC8).
+
 create  you  lens  testnet handle here   [https://testnet.lenster.xyz/).
 
 # The simplest way to create & collect Music NFTs.       #BUILT ON LENS-PROTOCOL
