@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# The simplest way to create & collect Music NFTs.       #BUILT ON LENS-PROTOCOL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's Like Sportify ,But You Own Your Content, & You Can Sell Your albums / song  to Your Fans
+All these  without  relying  to  middle-man / centralized providers 
 
-## Available Scripts
+## What it does
+momentico is a decentralized music streaming platform, Where creators share their music effectively, create a genuine fan base, and generate alternate streams of revenue in the process. while fans Support Their favorite artists by investing in their projects. / or collecting their songs also fans makes money by re-amplifying (mirrororing) their favorite songs / albums all that without involving a middle-man or centralized servers
 
-In the project directory, you can run:
+  ## Creators / artists
+  
+  ### EXPAND.
+  Share your music effectively, create a genuine fan base, and generate alternate streams of revenue in the process.
+  
+   ### Sell.
+   Sell limited editions or individual song either through auction or a fixed price.
+   
+    ### Reward.
+    Reward Your Fans By Setting Referral Fee so they certain percentage on each Purchase
+  
+  ## Fans.
+  
+     ### Collect.
+     Collect songs from all your favorite creators and transfer them out at any time.
+     
+      ### Mirror.  
+      Earn By Re-amplifying Your Favorite creators / artists  Albums
+      
+    
+### How We  Built  It
+ momentico  is  built  on  lens -protocol  
+ All the songs /albums and podcasts is saved in IPFS, and user connecctions / social graph is stored  on-chain which makes the connection You make here (follow, following ) are portable in other social dapps built on lens protocol
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    #We're Buidling On Polygon and  lens-protocol 
