@@ -18,7 +18,6 @@ momentico is a decentralized music streaming platform, Where creators share thei
     Reward Your Fans By Setting Referral Fee so they certain percentage on each Purchase
   
   ## Fans.
-  
      ### Collect.
      Collect songs from all your favorite creators and transfer them out at any time.
      
