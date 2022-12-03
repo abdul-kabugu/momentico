@@ -29,4 +29,4 @@ momentico is a decentralized music streaming platform, Where creators share thei
  momentico  is  built  on  lens -protocol  
  All the songs /albums and podcasts is saved in IPFS, and user connecctions / social graph is stored  on-chain which makes the connection You make here (follow, following ) are portable in other social dapps built on lens protocol
 
-    #We're Buidling On Polygon and  lens-protocol 
+    # We're Buidling On Polygon and  lens-protocol 
